@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;500;600;700&family=Roboto:wght@300;500&display=swap');    
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-sizing: border-box;
+    align-items: center;
+    height: 60px;
+}
+
+.logo {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.logo p {
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: 500;
+    color: #db2e73;
+    transform: translateY(5px);
+}
+
+.list {
+    display: flex;
+    width: 30%;
+    padding: 10px;
+    margin-left: 20px;
+    justify-content: center;
+}
+
+.list li {
+    margin-right: 20px;
+    list-style: none;
+    color: #db2e73;
+    font-family: 'poppins';
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.2s;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.list li:hover {
+    opacity: 0.6;
+    background-color: #db2e73;
+    color: white;
+}

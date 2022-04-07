@@ -1,0 +1,12 @@
+.bg-acc::after {
+    content: '';
+    z-index: 5;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: rgb(243, 207, 4);
+    left: -160px;
+    top: 150px;
+    opacity: 0.4;
+  }
